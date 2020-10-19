@@ -1472,6 +1472,12 @@ hr {
   width: 26px;
 }
 
+.medium {
+  width: 26px;
+  height: 26px;
+  border-radius: 20%;
+}
+
 .footer-area .mini-footer .social-medias a:first-child {
   margin-left: 0;
 }
@@ -1547,6 +1553,10 @@ hr {
   color: #c7c7c7;
   margin-bottom: 0;
   text-align: right;
+}
+
+.contact-medium{
+  
 }
 
 @media (max-width: 991.98px) {

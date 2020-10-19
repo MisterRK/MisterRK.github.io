@@ -1,0 +1,152 @@
+/*----------- Sidebar -----------*/
+.sidebar {
+  background-color: #111;
+}
+
+.sidebar .sidebar-header {
+  padding-top: 24px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.sidebar .sidebar-header .sidebar-avatar {
+  width: 110px;
+  border-radius: 50%;
+  border: 5px solid #484848;
+  margin-bottom: 16px;
+}
+
+.sidebar .sidebar-header .sidebar-name {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.sidebar .sidebar-header .sidebar-status {
+  color: #8a8a8a;
+  line-height: 100%;
+  margin-top: 9px;
+  display: block;
+  margin-bottom: 0;
+}
+
+.sidebar .sidebar-menu {
+  padding-bottom: 24px;
+}
+
+.sidebar .sidebar-menu .list-menu {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.sidebar .sidebar-menu .list-menu li {
+  line-height: 100%;
+}
+
+.sidebar .sidebar-menu .list-menu li:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.sidebar .sidebar-menu .list-menu .nav-link {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  padding: 0;
+  color: rgba(232, 232, 232, 0.95);
+}
+
+.sidebar .simplebar-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sidebar .simplebar-track .simplebar-scrollbar:before {
+  background: #fff;
+}
+
+.sidebar .simplebar-track .simplebar-scrollbar.simplebar-visible:before {
+  opacity: 0.5;
+}
+
+.sidebar .simplebar-track.simplebar-vertical {
+  width: 10px;
+}
+
+.sidebar .simplebar-track.simplebar-vertical .simplebar-scrollbar {
+  width: 6px;
+  height: auto;
+}
+
+.sidebar .simplebar-track.simplebar-horizontal {
+  height: 10px;
+}
+
+.sidebar .simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+  height: 6px;
+  width: auto;
+}
+
+.mobile-navbar {
+  padding: 14px 26px;
+}
+
+.mobile-navbar:before {
+  content: '';
+  background-color: #222;
+  width: 100%;
+  height: 58px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mobile-navbar .navbar-toggler {
+  border-color: #222;
+  background-color: #333;
+  outline: none;
+  padding: 4px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  position: relative;
+  display: block;
+}
+
+.mobile-navbar .navbar-toggler .nav-btn {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.mobile-navbar .navbar-collapse .navbar-nav {
+  width: 200px;
+  background-color: #222;
+  z-index: 2;
+  position: relative;
+  padding: 8px 20px;
+  top: 8px;
+}
+
+.mobile-navbar .navbar-collapse .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+.mobile-navbar .navbar-collapse .navbar-nav .nav-link:hover, .mobile-navbar .navbar-collapse .navbar-nav .nav-link:focus {
+  color: #fff;
+}
+/*# sourceMappingURL=sidebar.css.map */
