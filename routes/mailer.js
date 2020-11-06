@@ -32,7 +32,7 @@ mailRouter.post('/', (req, res,next) => {
       
       contact: ${req.body.email}
       
-      message: ${req.body.text}`
+      message: ${req.body.message}`
    }
 
    transporter.sendMail(mail, (err,data) => {
