@@ -675,6 +675,9 @@ hr {
   border-color: rgba(0, 0, 0, 0.18);
   width: 430px;
 }
+.headshot-2{
+  display: none;
+}
 
 .about-area .about-content .content-subtitle {
   font-size: 22px;
@@ -734,6 +737,13 @@ hr {
     height: 440px;
     object-fit: cover;
   }
+  .headshot-1{
+    display: none;
+  }
+
+  .headshot-2{
+    display: block
+  }
 
   .about-area .about-content .content-subtitle {
     display: none;
@@ -766,6 +776,9 @@ hr {
     margin: 0 auto 40px auto;
     object-fit: cover;
     width: 250px;
+  }
+  .headshot-2 {
+    display:  none !important;
   }
 
   .about-area .about-content .content-subtitle {
