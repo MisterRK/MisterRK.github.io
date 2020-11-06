@@ -635,7 +635,7 @@
           // Getting a response from the server
           .done(function(response) {
             // If the PHP file succeed sending the message
-            if (response == 'success') {
+            if (response.message == 'success') {
               // Feedback to the user
               submitBtn.removeClass('wait').html('Success').addClass('success');
               feedbackEl.addClass('success').html('Thank you for your message. It has been sent.').fadeIn(200);
@@ -648,7 +648,7 @@
               // If something is wrong
             } else {
               // Feedback to the user
-              console.log(response);
+              console.log(response.message);
               submitBtn.removeClass('wait').html('Error').addClass('error');
               feedbackEl.addClass('error').html('Server error! Please check your browser console log for more details.').fadeIn(200);
               setTimeout(function() {
