@@ -858,6 +858,10 @@ hr {
 .services-area .single-service .service-description {
   margin-bottom: 0;
 }
+.single-service {
+  width: 88%;
+  height: 88%;
+}
 
 /*----------- Hire -----------*/
 .hire-area {
