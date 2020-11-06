@@ -601,11 +601,13 @@
             <!-- Contact form-->
             <div class="col-12">
               <form 
-                netlify 
                 class="contact-form" 
                 id="contact-form" 
-                method="post"
-                action="/contact.php">
+                data.netlify="true"
+                name="contact-form"
+                method="POST"
+                <!-- action="/contact.php" -->
+                >
                 <div class="row">
                   <div class="col-12 col-md-6 form-group">
                     <input 
