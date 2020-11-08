@@ -773,9 +773,12 @@ hr {
     border-radius: 50%;
     display: block;
     height: 250px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 10px auto;
     object-fit: cover;
     width: 250px;
+  }
+  .about-me-photo-caption{
+    text-align: center;
   }
   .headshot-2 {
     display:  none !important;
@@ -825,9 +828,12 @@ hr {
   .about-area {
     padding-bottom: 51px;
   }
+  .about-me-photo-caption{
+    padding-bottom: 10%;
+  }
 
   .about-area .about-img img {
-    margin: 0 auto 32px auto;
+    margin: 0 auto 10px auto;
   }
 
   .about-area .about-content .content-subtitle {
